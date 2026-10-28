@@ -44,7 +44,7 @@ window.PORTFOLIO_DATA = {
   contactLinks: [
     { label: "Gmail", icon: "gmail", copyText: "crljsphromn@gmail.com", text: "crljsphromn@gmail.com (Copy)" },
     { label: "Outlook", icon: "outlook", copyText: "crljsphromn@outlook.com", text: "crljsphromn@outlook.com (Copy)" },
-    { label: "GitHub", icon: "github", href: "https://github.com/", text: "GitHub Profile" }
+    { label: "GitHub", icon: "github", href: "https://github.com/tmptingg", text: "GitHub Profile" }
   ],
 
   /* -------------------------------------------------------
