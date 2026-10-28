@@ -71,7 +71,7 @@ window.PORTFOLIO_DATA = {
         title: "Bachelor of Science in Information Technology",
         description: "Bulacan State University, Main Campus · College of Information and Communications Technology (CICT)",
         meta: [
-          { label: "Program", value: "BSIT Specializing in Infrastructure Services" },
+          { label: "Program", value: "BSIT - Infrastructure Services" },
           { label: "Status",  value: "3rd Year" }
         ]
       },
