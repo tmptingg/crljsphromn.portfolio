@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Carl Joseph B. Roman, 3rd Year BSIT Student & Technical Researcher." />
+  <title>Carl Joseph B. Roman | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,700;0,900;1,400;1,700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__logo" id="navLogo"></a>
+
+      <nav aria-label="Primary">
+        <ul class="nav__links" id="navLinks"></ul>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="frame" id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <h2 class="masthead reveal" id="masthead" aria-hidden="true"></h2>
+
+        <div class="hero__grid">
+          <div class="hero__text reveal">
+            <span class="eyebrow" id="heroEyebrow"></span>
+            <p class="hero__greeting" id="heroGreeting"></p>
+            <h1 class="hero__name" id="heroName"></h1>
+            <p class="hero__headline" id="heroHeadline"></p>
+            <p class="hero__intro" id="heroIntro"></p>
+
+            <!-- Hero Action Buttons including PDF Resume -->
+            <div class="hero__actions">
+              <a href="#work" class="btn btn--solid">View my work &rarr;</a>
+              <a href="resume.pdf" class="btn btn--ghost" target="_blank" rel="noopener noreferrer">Download Resume (.pdf)</a>
+              <a href="#contact" class="btn btn--ghost">Get in touch</a>
+            </div>
+          </div>
+
+          <div class="hero__visual reveal" data-delay="2">
+            <div class="hero__circle" aria-hidden="true"></div>
+            <div class="hero__image-wrap" id="heroImageWrap">
+              <img id="heroImage" alt="Portrait photo" />
+              <div class="hero__placeholder">
+                <span id="placeholderName"></span>
+                <small>Add profile.png to this folder</small>
+              </div>
+            </div>
+            <div class="hero__badge" id="heroBadge"></div>
+          </div>
+        </div>
+
+        <!-- Quick facts strip -->
+        <div class="facts reveal" id="factsStrip"></div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section__header reveal">
+          <div>
+            <span class="eyebrow" id="eduEyebrow"></span>
+            <h2 class="section__title" id="eduTitle"></h2>
+          </div>
+          <p class="section__lead" id="eduLead"></p>
+        </div>
+        <div class="edu-grid" id="eduGrid"></div>
+      </div>
+    </section>
+
+    <!-- SELECTED WORK -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section__header reveal">
+          <div>
+            <span class="eyebrow" id="workEyebrow"></span>
+            <h2 class="section__title" id="workTitle"></h2>
+          </div>
+          <p class="section__lead" id="workLead"></p>
+        </div>
+        <div class="work-grid" id="workGrid"></div>
+      </div>
+    </section>
+
+    <!-- CORE COMPETENCIES -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section__header reveal">
+          <div>
+            <span class="eyebrow" id="skillsEyebrow"></span>
+            <h2 class="section__title" id="skillsTitle"></h2>
+          </div>
+          <p class="section__lead" id="skillsLead"></p>
+        </div>
+        <div class="skills-grid reveal" id="skillsGrid"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT / FOOTER -->
+    <footer class="footer section" id="contact">
+      <div class="container">
+        <span class="eyebrow" id="contactEyebrow"></span>
+        <h2 class="footer__big" id="contactTitle"></h2>
+        <p class="footer__lead" id="contactLead"></p>
+
+        <div class="footer__row">
+          <span id="footerName"></span>
+          <span id="footerSchool"></span>
+          <a id="footerEmail" href="#"></a>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
