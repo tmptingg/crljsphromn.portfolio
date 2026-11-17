@@ -1,6 +1,6 @@
 /* =========================================================
    PORTFOLIO DATA
-   Edit the text below to update the website.
+   
    ========================================================= */
 window.PORTFOLIO_DATA = {
 
@@ -27,7 +27,7 @@ window.PORTFOLIO_DATA = {
     greeting: "Hello, I'm",
     firstName: "Carl Joseph",
     lastName: "B. Roman",
-    headline: "3rd Year BSIT Student & Technical Researcher / Community Administrator",
+    headline: "3rd Year BSIT Student & Technical Researcher & Proofreader",
     intro: "I build clear technical documentation, organized networks, and well-run online communities. My focus is on research, systems, and helping people work together.",
     photo: "profile.png",
     badge: {
@@ -41,11 +41,12 @@ window.PORTFOLIO_DATA = {
   /* -------------------------------------------------------
      Contact Links (Click-to-Copy)
      ------------------------------------------------------- */
-  contactLinks: [
+contactLinks: [
     { label: "Gmail", icon: "gmail", copyText: "crljsphromn@gmail.com", text: "crljsphromn@gmail.com (Copy)" },
     { label: "Outlook", icon: "outlook", copyText: "crljsphromn@outlook.com", text: "crljsphromn@outlook.com (Copy)" },
     { label: "GitHub", icon: "github", href: "https://github.com/tmptingg", text: "GitHub Profile" }
   ],
+
 
   /* -------------------------------------------------------
      3. QUICK FACTS STRIP
@@ -60,7 +61,7 @@ window.PORTFOLIO_DATA = {
   /* -------------------------------------------------------
      4. EDUCATION
      ------------------------------------------------------- */
-  education: {
+   education: {
     eyebrow: "Education",
     title: "Academic\nBackground",
     lead: "A foundation built in senior high school and refined through a degree in information technology.",
@@ -109,6 +110,9 @@ description: "Completed Senior High School alongside practical industry work imm
       { name: "Setting Up Computer Networks", issuer: "TESDA" },
       { name: "Installing and Configuring Computer Systems", issuer: "TESDA" },
       { name: "Introduction to Computer Systems Servicing", issuer: "TESDA" }
+    ],
+    otherCerts: [
+      { name: "Agentblazer Champion", issuer: "Salesforce" }
     ]
   },
 
@@ -121,12 +125,11 @@ description: "Completed Senior High School alongside practical industry work imm
     lead: "Practical software development, system analysis, and network configurations from coursework.",
     items: [
       { 
-        title: "Driver Queue Mangement System (DQMS)", 
+        title: "Queue System (DQMS)", 
         type: "Prototype (HTML, CSS, Javascript)", 
         color: "#1a1a1a", 
         textColor: "#F4F0EA",
-        desc: "Terminal queue management system prototype for jeepney cooperatives."
-
+        desc: "Terminal queue management system prototype with automated testing workflows using Selenium."
       },
       { 
         title: "Network Topology Lab", 
@@ -136,8 +139,8 @@ description: "Completed Senior High School alongside practical industry work imm
         desc: "Configured static routing, VLANs, and DHCPv4 pools across multi-router enterprise topologies."
       },
       { 
-        title: "Bank Management Java Program", 
-        type: "Java OOP Console Program", 
+        title: "Bank Management App", 
+        type: "Java OOP Console App", 
         color: "#55524c", 
         textColor: "#F4F0EA",
         desc: "Object-oriented terminal application managing secure deposits, withdrawals, and account ledgers."
@@ -161,9 +164,9 @@ description: "Completed Senior High School alongside practical industry work imm
     lead: "Four areas where technical rigor meets hands-on practice, from documentation and research to network design and community leadership.",
     items: [
       {
-        title: "Technical Documentation & Research",
-        description: "Advanced Microsoft Word proficiency with a strong background in academic and technical research writing.",
-        tags: ["Microsoft Word", "Academic Research", "Technical Writing"],
+        title: "Documentation, Research & Proofreading",
+        description: "Advanced Microsoft Word proficiency with a strong background in academic and technical research writing, plus careful proofreading for clarity and accuracy.",
+        tags: ["Microsoft Word", "Academic Research", "Technical Writing", "Proofreading"],
         icon: '<path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h4"/>'
       },
       {

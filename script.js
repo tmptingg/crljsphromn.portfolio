@@ -111,6 +111,18 @@
               `).join("")}
             </ul>
           </div>
+                    ${(certData.otherCerts && certData.otherCerts.length) ? `
+          <div class="cert-group cert-group--wide reveal" data-delay="3">
+            <h3>Salesforce Credentials</h3>
+            <ul class="cert-list">
+              ${certData.otherCerts.map(c => `
+                <li class="cert-item">
+                  <div><strong>${c.name}</strong></div>
+                  <span>${c.issuer}</span>
+                </li>
+              `).join("")}
+            </ul>
+          </div>` : ""}
         </div>
       </div>
     `;

@@ -465,6 +465,7 @@ p { color: var(--ink-soft); }
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
+  
 }
 
 .cert-group {
@@ -501,6 +502,7 @@ p { color: var(--ink-soft); }
 .cert-item strong {
   color: var(--ink);
 }
+.cert-group--wide { grid-column: 1 / -1; }
 
 .cert-item span {
   font-size: 0.78rem;
